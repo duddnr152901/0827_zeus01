@@ -1,0 +1,11 @@
+{
+  "name": "zeus-pica-event",
+  "private": true,
+  "scripts": {
+    "build:css": "sass assets/scss/style.scss assets/css/style.css --source-map --source-map-urls=relative",
+    "watch:css": "sass --watch assets/scss/style.scss:assets/css/style.css --source-map --source-map-urls=relative"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
